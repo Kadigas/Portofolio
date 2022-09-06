@@ -387,32 +387,17 @@ ul.rb li .timestamp {
   font-size: 20px;
 }
 
+.project{
+  text-align: center;
+}
+
 .projects {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 700px;
+  max-height: 700px;
 }
 
-#img {
-  float: left;
-  display: block;
-}
-
-.proj1{
-  display: flex;
-  justify-content: center;
-  background-color: #ffffff;
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}
-
-.proj2{
-  display: flex;
-  justify-content: center;
-  background-color: #ffffff;
-  margin: auto;
-  width: 50%;
-  padding: 10px;
+.projectTitle{
+  font-size: 5rem;
 }
 
 /*dark mode*/
