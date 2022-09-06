@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andhika Ditya Bagaskara D.</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins'/>
+  </head>
+  <body>
+    <header class="navbar" id="topnav">
+      <button href="javascript:void(0)" class="title" onclick="DarkMode()" id="switch">MyPorto</button>
+      <ul class="navbar-right" id="nvright">
+        <li id="navbtn">
+          <a href="javascript:void(0);" class="icon" onclick="Menu()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </li>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="javascript:void(0)" onclick="openNav()">Contact</a></li>
+      </ul>
+      <div id="mySidenav" class="sidenav">
+        <h1 class="cntct">Contact Me:</h1>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <img src="images/github.png" alt="github" class="contact">
+        <a href="https://github.com/Kadigas">Github</a>
+        <img src="images/ig.png" alt="instagram" class="contact">
+        <a href="https://www.instagram.com/adbagas05/">Instagram</a>
+        <img src="images/linkedin.png" alt="linkedin" class="contact">
+        <a href="https://www.linkedin.com/in/andhika-ditya-bagaskara-d-5488111a0/">LinkedIn</a>
+      </div>
+    </header>
+      <div class="hero-image">
+        <div class="hero-text">
+          <h2>Hi There! I am</h2>
+          <h1>Andhika Ditya Bagaskara D.</h1>
+          <h2>Student of Informatics Engineering at ITS</h2>
+        </div>
+      </div>
+      <div id="main">
+        <div class="box" id="about">
+          <h3 class="text" id="title">ABOUT ME</h3>
+          <img src="images/profpic.jpg" alt="My Profile Photo" class="Profile" id="Top"/>
+          <p class="desc">
+            I am Andhika Ditya Bagaskara D, undergraduate student of the Department of Informatics batch 2020 at Institut Teknologi Sepuluh Nopember.
+            I have interest in technology and graphic design, which makes me want to have a career as a web developer or UI/UX designer.
+          </p>
+          <img src="images/profpic.jpg" alt="My Profile Photo" class="Bottom" id="Bot"/>
+        </div>
+        <div class="skill">
+          <h5 class="text1" id="skill">SKILLS</h5>
+          <div class="skills-container">
+            <div class="row1">"
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" class="Logo-static" id="logohtml"/>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" class="Logo-static" id="logocss"/>
+              <img src="https://theicom.org/wp-content/uploads/2016/03/js-logo.png" class="Logo-static" id="logojs"/>
+            </div>
+            <div class="row2">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" class="Logo-static" id="logocpp"/>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Python_logo_01.svg/800px-Python_logo_01.svg.png" class="Logo-static" id="logopy"/>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/985px-Laravel.svg.png" class="Logo-static" id="logolaravel"/>
+              <img src="https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png" class="Logo-static" id="logofigma"/>
+            </div>
+          </div>
+        </div>
+        <div class="edu" id="education">
+          <h3 class="text1">EDUCATION</h3>
+          <img src="images/ITS.png" alt="Logo ITS" class="Logo" id="logoits" />
+          <div class="ITS">
+            <p id="place">Institut Teknologi Sepuluh Nopember (2020 - Now)</p>
+            <p id="depart">Informatics Engineering</p>
+            <ul id="list">
+              <li>GPA 3.72</li>
+              <li>Documentation Staff in 3DC Schematics 2021</li>
+              <li> Staff in Communication and Information Division IFLS Benzaiten</li>
+            </ul>
+          </div>
+          <img src="images/ITS.png" alt="Logo ITS" class="LogoBot" id="logoIts" />
+          <img src="images/SMALA.png" alt="Logo SMALA" class="Logo" id="logosmala" />
+          <div class="SMALA">
+            <p id="place">SMA Negeri 5 Surabaya (2017 - 2020)</p>
+            <p id="depart">Mathematics and Science</p>
+            <ul id="list">
+              <li>Head of Media Division in SSKI V 2019-2020</li>
+              <li>Member of PARALELA</li>
+            </ul>
+          </div>
+          <img src="images/SMALA.png" alt="Logo SMALA" class="LogoBot" id="logoSmala"/>
+        </div>
+        <div class="rightbox" id="rb">
+          <h3 class="text1">ROADMAP</h3>
+          <div class="rb-container" id="line">
+            <ul class="rb">
+              <li class="rb-item" ng-repeat="itembx">
+                <div class="timestamp">
+                  September - December<br> 2022
+                </div>
+                <div class="item-title" id="map1">Learn more about web development and UI/UX design, produce more portofolio</div>
+              </li>
+              <li class="rb-item" ng-repeat="itembx">
+                <div class="timestamp">
+                  January - December<br> 2023
+                </div>
+                <div class="item-title" id="map2">Internship and preparing Final Project</div>
+              </li>
+              <li class="rb-item" ng-repeat="itembx">
+                <div class="timestamp">
+                  January - June<br> 2024
+                </div>
+                <div class="item-title" id="map3">Finishing Final Project and graduate.</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
